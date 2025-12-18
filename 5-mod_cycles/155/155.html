@@ -1,4 +1,4 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,13 +7,12 @@ s<!DOCTYPE html>
   </head>
   <body>
     <script>
-      let num = 12;
 
-      if (String(num.length) === 2) {
-        console.log("+++");
-      } else {
-        console.log("---");
-      }
+      let arr = [1, 2, 3, 4, 5];
+
+      for (let elem of arr);
+      	console.log(elem);
+      //Ошибка ReferenceError: elem is not defined.
     </script>
   </body>
 </html>

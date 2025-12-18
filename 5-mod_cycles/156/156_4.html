@@ -1,4 +1,4 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,13 +7,15 @@ s<!DOCTYPE html>
   </head>
   <body>
     <script>
-      let num = 12;
-
-      if (String(num.length) === 2) {
-        console.log("+++");
-      } else {
-        console.log("---");
+      let sum = 0;
+      let count = 0;
+      let i = 1;
+      while (sum <= 100) {
+        sum += i;
+        i++;
+        count++;
       }
+      console.log(count);
     </script>
   </body>
 </html>

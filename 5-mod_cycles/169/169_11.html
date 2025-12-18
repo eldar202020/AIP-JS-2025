@@ -1,4 +1,4 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,13 +7,12 @@ s<!DOCTYPE html>
   </head>
   <body>
     <script>
-      let num = 12;
-
-      if (String(num.length) === 2) {
-        console.log("+++");
-      } else {
-        console.log("---");
+      let num = 5;
+      let factorial = 1;
+      for (let i = 1; i <= num; i++) {
+        factorial *= i;
       }
+      console.log(factorial);
     </script>
   </body>
 </html>

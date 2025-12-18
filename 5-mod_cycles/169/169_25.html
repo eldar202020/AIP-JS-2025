@@ -1,4 +1,4 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,13 +7,14 @@ s<!DOCTYPE html>
   </head>
   <body>
     <script>
-      let num = 12;
-
-      if (String(num.length) === 2) {
-        console.log("+++");
-      } else {
-        console.log("---");
+      let obj = { a: 1, b: 2, c: 3, d: 4, e: 5 };
+      let keys = [];
+      let values = [];
+      for (let key in obj) {
+        keys.push(key);
+        values.push(obj[key]);
       }
+      console.log(keys, values);
     </script>
   </body>
 </html>

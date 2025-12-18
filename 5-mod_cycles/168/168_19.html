@@ -1,4 +1,4 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,13 +7,17 @@ s<!DOCTYPE html>
   </head>
   <body>
     <script>
-      let num = 12;
+      let arr = [1, 2, 3, 4, 5];
+      let res = false;
 
-      if (String(num.length) === 2) {
-        console.log("+++");
-      } else {
-        console.log("---");
+      for (let elem of arr) {
+        if (elem === 3) {
+          res = true;
+          break;
+        }
       }
+
+      console.log(res);
     </script>
   </body>
 </html>

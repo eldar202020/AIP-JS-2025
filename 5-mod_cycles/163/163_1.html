@@ -1,4 +1,4 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,13 +7,13 @@ s<!DOCTYPE html>
   </head>
   <body>
     <script>
-      let num = 12;
-
-      if (String(num.length) === 2) {
-        console.log("+++");
-      } else {
-        console.log("---");
+      let arr1 = ["a", "b", "c", "d", "e"];
+      let arr2 = [1, 2, 3, 4, 5];
+      let obj = {};
+      for (let i = 0; i < arr1.length; i++) {
+        obj[arr1[i]] = arr2[i];
       }
+      console.log(obj);
     </script>
   </body>
 </html>
