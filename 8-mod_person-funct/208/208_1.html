@@ -7,19 +7,16 @@
   </head>
   <body>
     <script>
-      let arr = [];
-      let k = 1;
-
-      for (let i = 0; i < 3; i++) {
-        arr[i] = []; 
-
-        for (let j = 0; j < 3; j++) {
-          arr[i][j] = k;
-          k++;
-        }
+      function sqrt(num) {
+        return Math.sqrt(num);
       }
 
-      console.log(arr);
+      function round(num) {
+        return num.toFixed(3);
+      }
+
+      const result = round(sqrt(2));
+      console.log(result);
     </script>
   </body>
 </html>

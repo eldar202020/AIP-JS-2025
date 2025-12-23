@@ -7,19 +7,16 @@
   </head>
   <body>
     <script>
-      let arr = [];
-      let k = 1;
-
-      for (let i = 0; i < 3; i++) {
-        arr[i] = []; 
-
-        for (let j = 0; j < 3; j++) {
-          arr[i][j] = k;
-          k++;
+      function checkSign(num) {
+        if (num >= 0) {
+          console.log("+++");
+        } else {
+          console.log("---");
         }
       }
-
-      console.log(arr);
+      checkSign(10); 
+      checkSign(0); 
+      checkSign(-5); 
     </script>
   </body>
 </html>

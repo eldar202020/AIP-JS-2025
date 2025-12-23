@@ -7,19 +7,13 @@
   </head>
   <body>
     <script>
-      let arr = [];
-      let k = 1;
-
-      for (let i = 0; i < 3; i++) {
-        arr[i] = []; 
-
-        for (let j = 0; j < 3; j++) {
-          arr[i][j] = k;
-          k++;
-        }
+      function cubeNumber(num) {
+        const cube = num ** 3;
+        console.log(cube);
       }
-
-      console.log(arr);
+      cubeNumber(2); 
+      cubeNumber(3); 
+      cubeNumber(-4); 
     </script>
   </body>
 </html>

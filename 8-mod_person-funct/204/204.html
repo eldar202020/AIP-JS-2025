@@ -7,19 +7,13 @@
   </head>
   <body>
     <script>
-      let arr = [];
-      let k = 1;
-
-      for (let i = 0; i < 3; i++) {
-        arr[i] = []; 
-
-        for (let j = 0; j < 3; j++) {
-          arr[i][j] = k;
-          k++;
-        }
+      function sumThreeNumbers(num1, num2, num3) {
+        const sum = num1 + num2 + num3;
+        console.log(sum);
       }
-
-      console.log(arr);
+      sumThreeNumbers(1, 2, 3); 
+      sumThreeNumbers(10, 20, 30); 
+      sumThreeNumbers(-5, 0, 5);
     </script>
   </body>
 </html>

@@ -7,19 +7,14 @@
   </head>
   <body>
     <script>
-      let arr = [];
-      let k = 1;
-
-      for (let i = 0; i < 3; i++) {
-        arr[i] = []; 
-
-        for (let j = 0; j < 3; j++) {
-          arr[i][j] = k;
-          k++;
+      function sumOneToHundred() {
+        let sum = 0;
+        for (let i = 1; i <= 100; i++) {
+          sum += i;
         }
+        console.log(sum);
       }
-
-      console.log(arr);
+      sumOneToHundred();
     </script>
   </body>
 </html>

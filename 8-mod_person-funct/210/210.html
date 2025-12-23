@@ -7,19 +7,15 @@
   </head>
   <body>
     <script>
-      let arr = [];
-      let k = 1;
-
-      for (let i = 0; i < 3; i++) {
-        arr[i] = []; 
-
-        for (let j = 0; j < 3; j++) {
-          arr[i][j] = k;
-          k++;
+      function func(num) {
+        let sum = 0;
+        for (let i = 1; i <= num; i++) {
+          sum += i;
         }
+        return sum; 
       }
 
-      console.log(arr);
+      console.log(func(5)); 
     </script>
   </body>
 </html>

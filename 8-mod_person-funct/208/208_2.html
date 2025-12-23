@@ -7,19 +7,16 @@
   </head>
   <body>
     <script>
-      let arr = [];
-      let k = 1;
-
-      for (let i = 0; i < 3; i++) {
-        arr[i] = []; 
-
-        for (let j = 0; j < 3; j++) {
-          arr[i][j] = k;
-          k++;
-        }
+      function sqrt(num) {
+        return Math.sqrt(num);
       }
 
-      console.log(arr);
+      function sum(num1, num2, num3) {
+        return num1 + num2 + num3;
+      }
+
+      const res = sum(sqrt(2), sqrt(3), sqrt(4));
+      console.log(res);
     </script>
   </body>
 </html>

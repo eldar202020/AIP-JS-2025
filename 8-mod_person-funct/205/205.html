@@ -7,19 +7,14 @@
   </head>
   <body>
     <script>
-      let arr = [];
-      let k = 1;
-
-      for (let i = 0; i < 3; i++) {
-        arr[i] = []; 
-
-        for (let j = 0; j < 3; j++) {
-          arr[i][j] = k;
-          k++;
-        }
+      function func(a, b, c) {
+        const sum = a + b + c;
+        console.log(sum);
       }
-
-      console.log(arr);
+      let param1 = 1;
+      let param2 = 2;
+      let param3 = 3;
+      func(param1, param2, param3); 
     </script>
   </body>
 </html>
